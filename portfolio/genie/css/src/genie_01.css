@@ -1,0 +1,205 @@
+/* base.css */
+.hidden {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  display: block; }
+
+.hidden_wrap a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat; }
+
+.hidden_wrap a > span {
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden; }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both; }
+
+#wrap .last_margin {
+  margin-right: 0;
+  border-right: 0; }
+
+/* reset.css */
+html, body {
+  height: 100%; }
+
+html, body, h1, h2, h3, h4, h5, h6,
+p, pre, form, fieldset, legend,
+ul, ol, li, dl, dt, dd, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Montserrat", sans-serif "myriad pro", din, arial, nanumGothic,dotum, sans-serif;
+  font-size: 100%;
+  line-height: 1.2;
+  color: #333;
+  /*   font: italic bold 100%/1.2 "myriad pro", din, arial, sans-serif; */ }
+
+table, th, td {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+textarea, input {
+  border: 1px solid #333;
+  box-sizing: border-box; }
+
+input[type="submit"], input[type="button"], input[type="reset"], button {
+  border: 0;
+  background-color: #777;
+  color: #fff; }
+
+/*
+<input type="submit">
+*/
+/*html5 */
+header, nav, aside, article, section, footer, main, figure, hgroup {
+  display: block; }
+
+#headBox {
+  width: 100%;
+  height: auto; }
+
+.headBanner {
+  width: 100%;
+  min-width: 1400px;
+  height: 700px;
+  background-image: url("../../image/genie_01/header/headBanner_01.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px 50px;
+  box-sizing: border-box; }
+
+.title {
+  width: 280px;
+  height: 280px;
+  background-image: url("../../image/genie_01/header/title.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  float: left; }
+
+.logo {
+  width: 90px;
+  height: 50px;
+  background-image: url("../../image/genie_01/header/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  float: right; }
+
+.tab_box {
+  width: 100%;
+  height: 50px;
+  background-color: #292624; }
+
+.tab {
+  width: 960px;
+  height: 50px;
+  background-color: #292624;
+  margin: 0 auto; }
+  .tab > li {
+    width: 240px;
+    height: 100%;
+    border-right: 1px solid #E4C2C8;
+    box-sizing: border-box;
+    text-align: center; }
+
+.tab > li:nth-child(1) {
+  background-color: #E4C2C8;
+  float: left; }
+
+.tab > li:nth-child(2) {
+  float: left; }
+
+.tab > li:nth-child(3) {
+  float: left; }
+
+.tab > li:nth-child(4) {
+  float: right; }
+
+#geniewrap {
+  width: 960px;
+  height: 3000px;
+  background-color: #891;
+  margin: 0 auto; }
+
+#content {
+  width: 100%;
+  height: 600px;
+  background: #928;
+  background-color: #E4C2C8;
+  position: relative; }
+
+.con_title {
+  width: 400px;
+  height: 600px;
+  background-image: url("../../image/genie_01/content/con_title.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 70px;
+  margin: 0 auto; }
+
+.con_tree {
+  width: 360px;
+  height: 400px;
+  background-image: url("../../image/genie_01/content/con_tree.png");
+  background-size: 100%;
+  background-position: center;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-repeat: no-repeat; }
+
+.con_windy {
+  width: 600px;
+  height: 600px;
+  background-image: url("../../image/genie_01/content/con_windy.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 200;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  animation: windy 3s alternate infinite; }
+
+@keyframes windy {
+  0% {
+    transform: translate(0); }
+  100% {
+    transform: translate(50px); } }
+.con_flower {
+  width: 200px;
+  height: 300px;
+  background-image: url("../../image/genie_01/content/con_flower.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 200;
+  background-position: center;
+  position: absolute;
+  top: 220px;
+  left: 130px;
+  animation: flower 2s alternate infinite; }
+
+@keyframes flower {
+  0% {
+    transform: translate(0); }
+  100% {
+    transform: translate(-20px); } }
+
+/*# sourceMappingURL=genie_01.css.map */
