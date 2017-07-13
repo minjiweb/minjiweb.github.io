@@ -7,7 +7,7 @@
   
    $(window).on('scroll',function(e){
      e.preventDefault();
-     if($(this).scrollTop()>=700){
+     if($(this).scrollTop()>=550){
        headBox.css({backgroundColor:'rgba(4,10,43,0.9)'});
 //       headBox.addClass('headBoxColor',300);    
         }else{

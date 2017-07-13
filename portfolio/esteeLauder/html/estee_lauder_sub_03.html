@@ -9,6 +9,10 @@
   <meta name="description" content="paragraph" />
   
   <link rel="stylesheet" href="../css/src/estee_lauder_sub_03.css">
+  
+  <link rel="shortcut icon" href="../image/main/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../image/main/favicon.ico" type="image/x-icon">
+  
   <script src="../js/jquery-3.1.1.min.js"></script>
   <!--http://code.jquery.com-->
   <script src="../js/jquery-ui.min.js"></script>
@@ -42,10 +46,10 @@
         <li class="gnb_1"><a href="estee_lauder_sub_02.html">NEW PRODUCT</a></li>
         <li class="gnb_2"><a href="estee_lauder_sub_01.html">PRODUCT</a>
           <ul class="gnb_2_hover">
-            <li><a href="#">SKINCARE</a></li>
-            <li><a href="#">MAKEUP</a></li>
-            <li><a href="#">PERFURME</a></li>
-            <li><a href="#">SET</a></li>
+            <li><a href="estee_lauder_sub_01.html">SKINCARE</a></li>
+            <li><a href="estee_lauder_sub_01.html">MAKEUP</a></li>
+            <li><a href="estee_lauder_sub_01.html">PERFURME</a></li>
+            <li><a href="estee_lauder_sub_01.html">SET</a></li>
           </ul>
         
         </li>
@@ -57,14 +61,54 @@
 
       <div id="sitemap">
         <nav class="unb">
-          <ul>
+          <ul class="modal_btn">
             <li class="login"><a href="#"><span class="hidden">로그인</span></a></li>
-            <li class="cart"><a href="#"><span class="hidden">장바구니</span></a></li>
+            <li class="cart"><a href="estee_lauder_sub_03.html"><span class="hidden">장바구니</span></a></li>
             <li class="search"><a href="#"><span class="hidden">검색</span></a></li>
           </ul>
+          <div class="modal">
+            <div class="modal_01">
+              <div class="login_h2">에스티로더<br><span style="font-size:2em">로그인</span></div>
+              <p>로그인을 하시면 에스티로더의 다양한 정보와 혜택을 받을 수 있습니다.</p>
+              
+              
+    <form action="" method="post">
+      <fieldset class="idpw">
+        <legend></legend>
+        <div class="user">
+         <input type="text" name="userName" id="userName" value="" placeholder="ID 입력하기"/>
+         <input type="password" name="userPwd" id="userPwd" value="" placeholder="PW 입력하기"/>
+
+          <label for="userName" class="hidden">사용자의 계정 아이디를 입력하세요.</label>
+          <label for="userPwd" class="hidden">사용자 비밀번호를 입력하세요.</label>
+
+          
+ 
+          <input type="submit" name="loginBtn" id="loginBtn" value="로그인" />
+          <label for="loginBtn" class="hidden"></label>
+      
+        <div class="remember">
+          <input type="checkbox" name="idCheck" id="idCheck" value="rememberID">
+          <label for="idCheck">
+          <i class="fa fa-check-circle" aria-hidden="true"></i> ID기억하기</label>
+        </div>   
+        
+        </div>
+      </fieldset>
+      
+      <fieldset>
+        <legend></legend>     
+        <div class="find">
+          <a href="#">ID찾기</a> | <a href="#">비밀번호찾기</a>
+          <a href="#">회원가입</a> 
+        </div>
+      </fieldset>
+    </form>         
+            </div>  
+        </div>
         </nav>
       </div>
-    </header> <!-- header  -->
+    </header>   <!-- header  -->
       
       
       
@@ -145,14 +189,14 @@
       </div>
       
        <div class="dropdown">
-        <span>한국어</span>
+        <span>언어</span>
         <div class="dropdown-content">
-          <a href="">CJmall 에스티로더</a>
-          <a href="">GS SHOP 에스티로더</a>
-          <a href="">롯데홈쇼핑 에스티로더</a>
-          <a href="">GS SHOP 에스티로더</a>          
+          <a href="">호주 ENGLISH</a>
+          <a href="">중국 中文</a>
+          <a href="">홍콩 ENGLISH</a>
+          <a href="">인도 ENGLISH</a>          
         </div>
-      </div>  
+      </div> 
       
      </footer>
      </div>
